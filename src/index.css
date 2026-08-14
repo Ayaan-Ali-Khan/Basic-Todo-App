@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+* {
+    font-family: "Google Sans", sans-serif;
+}
+body{
+    background-color: azure;
+}
+.dark body{
+    background-color: #090d16;
+}

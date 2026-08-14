@@ -1,0 +1,11 @@
+.add-task {
+  --input-height: 43.5px;
+}
+
+.add-task input {
+  height: var(--input-height);
+}
+
+.add-task button {
+  height: var(--input-height);
+}
