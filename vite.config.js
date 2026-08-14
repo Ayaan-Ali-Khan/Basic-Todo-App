@@ -5,5 +5,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: "/basic-todo-app"
+  base: "/Basic-Todo-App/"
 })
