@@ -202,7 +202,7 @@ export default function App() {
                     {visibleTodos.map((item) => {
                         return <Todo key={item.id} todo={item} handleCheck={handleCheck} handleEdit={handleEdit} handleDelete={handleDelete} />
                     })}
-                    {(!showCompleted && visibleTodos.length !== todos.length) ? <div>{todos.length - visibleTodos.length} completed tasks.</div> : null}
+                    {(!showCompleted && visibleTodos.length !== todos.length && visibleTodos.length) ? <div>{todos.length - visibleTodos.length} completed tasks.</div> : null}
                 </div>
             </div>
         </>
