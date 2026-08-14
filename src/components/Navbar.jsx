@@ -3,7 +3,7 @@ export default function Navbar({darkMode, setDarkMode}) {
         <nav className="bg-slate-300 dark:bg-gray-700 py-2 sm:py-2.8 px-4 flex justify-between items-center">
             <div className="flex gap-8">
                 <div className="flex items-center justify-between gap-2 cursor-pointer">
-                    <img src="/basic-todo-app/favicon.svg" width={36} alt="logo" />
+                    <img src="/Basic-Todo-App/favicon.svg" width={36} alt="logo" />
                     <span className="font-bold text-2xl sm:text-3xl text-[#1F2937] dark:text-[#F3F4F6]">Taskly</span>
                 </div>
                 <ul className="flex justify-center items-center">
